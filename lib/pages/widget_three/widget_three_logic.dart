@@ -40,7 +40,7 @@ class WidgetThreeLogic extends GetxController {
       applicationName: info.appName,
       applicationVersion: info.version,
       applicationIcon: Image.asset(
-        'assets/launcher.webp',
+        'assets/init.png',
         width: 76,
         height: 76,
       ),

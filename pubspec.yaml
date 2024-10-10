@@ -62,14 +62,13 @@ dev_dependencies:
   build_runner: ^2.4.8
   flutter_launcher_icons: ^0.13.1
 
-  # 修改启动图标后执行的命令行：flutter pub run flutter_launcher_icons:main
 flutter_launcher_icons:
-  image_path: "assets/launcher.webp"
+  image_path: "assets/init.png"
   android: true
   ios: true
   web:
     generate: true
-    image_path: "assets/launcher.webp"
+    image_path: "assets/init.png"
     background_color: "#FFFFFF"
     theme_color: "#FFFFFF"
 

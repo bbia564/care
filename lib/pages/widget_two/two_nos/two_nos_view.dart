@@ -11,7 +11,7 @@ class TwoNosView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.johnston.value
+          () => controller.mcdermott.value
               ? const CircularProgressIndicator(color: Colors.green)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class TwoNosView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.ziosdfx();
+              controller.zvaqx();
             },
             icon: const Icon(
               Icons.restart_alt,

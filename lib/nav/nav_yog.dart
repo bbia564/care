@@ -24,7 +24,7 @@ class NavYog extends GetView<PageLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.crlo.value)),
+              url: WebUri.uri(Uri.parse(controller.hsemai.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;
